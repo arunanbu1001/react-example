@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "module",
-    "url": "git+https://github.com/nithish125/es6.git"
+    "url": "https://github.com/arunanbu1001/react-example.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nithish125/es6/issues"
+    "url": "https://github.com/arunanbu1001/es6/issues"
   },
-  "homepage": "https://github.com/nithish125/es6#readme"
+  "homepage": "https://github.com/arunanbu1001/es6#readme"
 }

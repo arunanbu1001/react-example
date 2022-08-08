@@ -38,8 +38,10 @@ var remove=document.querySelector("#remove");
 var cart=document.querySelector("#cart");
 add.addEventListener("click", ()=>{
     var v = parseInt(prompt("Enter the id number"));
-   let c= products.find((p) => p.id == v)
+   let c= products.find((p) =>  p.id == v)
     c.qty++  
+    //console.log(p)
+    
 })
 remove.addEventListener("click",()=>{
     var v = parseInt(prompt("Enter the id number"));
@@ -48,8 +50,11 @@ remove.addEventListener("click",()=>{
 })
 cart.addEventListener("click",()=>{
     cart = [];
-    products.filter((p) => p.qty > 0).forEach((q) => cart.push(q));
+   var e= products.filter((p) => p.qty > 0)
+   console.log(e);
+  var d= e.forEach((q) => cart.push(q));
     console.log(cart)
+//console.log(d);
   })
 
 
